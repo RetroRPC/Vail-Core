@@ -1,0 +1,66 @@
+KEY: "84Y9-RVC4-X2Y3-3T03"
+whitelist_reason: "our 1.0 revamp"
+booleans:
+  lootbox_all: true
+  jellylegs: true
+  flying: true
+  crafting: true
+  scoreboard: true #NOT FINISHED
+
+
+anti-burn:
+  - "DIAMOND_HELMET"
+  - "DIAMOND_CHESTPLATE"
+  - "DIAMOND_LEGGINGS"
+  - "DIAMOND_BOOTS"
+  - "DIAMOND_SWORD"
+  - "DIAMOND_AXE"
+  - "DIAMOND_PICKAXE"
+  - "DIAMOND_SPADE"
+  - "MOB_SPAWNER"
+  - "BEACON"
+  - "EMERALD"
+  - "BOW"
+  - "LEATHER_HELMET"
+  - "LEATHER_CHESTPLATE"
+  - "LEATHER_LEGGINGS"
+  - "LEATHER_BOOTS"
+  - "GOLD_SWORD"
+  - "EMERALD"
+  - "GOLD_AXE"
+
+discord:
+  - '&7&m-------------------------------------------'
+  - '&6Discord: yourdiscord.com'
+  - '&7&m-------------------------------------------'
+website:
+  - '&7&m-------------------------------------------'
+  - '&6Discord: yourdiscord.com'
+  - '&7&m-------------------------------------------'
+store:
+  - '&7&m-------------------------------------------'
+  - '&6Discord: yourdiscord.com'
+  - '&7&m-------------------------------------------'
+welcome_message:
+  - '                       &a&lVail&f&lPvP&r'
+  - ''
+  - '     &7VailPvP is a factions server where you'
+  - '     &7create a faction and defeat other factions.'
+  - ''
+  - '     &a&lPORTAL: &7vailpvp.com'
+  - '     &a&lSTORE: &7store.vailpvp.com'
+  - '     &a&lDISCORD: &7discord.vailpvp.com'
+  - ''
+
+message: '' #LEAVE BLANK
+
+lootbox_all: 60 # int is in seconds https://www.tools4noobs.com/online_tools/seconds_to_hh_mm_ss/
+commands:
+  lootbox_1:
+    chance: 10
+    item: '&a&lTesting'
+    command: 'give %player% BEACON 1'
+  lootbox_2:
+    chance: 3
+    item: '&2&l&oTesting #2'
+    command: 'give %player% BEACON 5'

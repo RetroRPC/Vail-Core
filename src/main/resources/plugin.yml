@@ -1,0 +1,32 @@
+name: Templar
+author: Siding
+version: 1.2-BETA
+main: me.siding.core.Main
+commands:
+  randomtp:
+    aliases: [rtp]
+  bless:
+  discord:
+  website:
+  trash:
+  fade:
+  giveall:
+  pots:
+  near:
+  dupe:
+  ping:
+  templar:
+  event:
+  deathpoint:
+  store:
+    aliases: [shop]
+  invsee:
+    aliases: [ms]
+  lag:
+    aliases: [lags, tps]
+  balance:
+    aliases: [bal, balances]
+  broadcast:
+    aliases: [bc, bcs, broadcasts]
+  lootboxall:
+    aliases: [lball, lootboxtime]
